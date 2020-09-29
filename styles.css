@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.3rem;
+    font-family: Arial, sans-serif;
+}
+
+.header__container li a{
+    text-decoration: none;
+    cursor: pointer;
+    margin-right: 10px;
+    color: black;
+}
+
+.header__container li a:hover{
+    text-decoration: underline;
+    color: #5F6368;
+}
+
+.header__container > li{
+    padding: 3px;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    /* background-color: blue; */
+}
+
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__container{
+    height: 60px;
+    width: 25rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+
+#header__icon{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.header__container a > img{
+    border-radius: 2rem;
+    margin-left: 1rem;
+}
+
+.main__container{
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main_container_image{
+    margin-top: 4rem;
+}
+
+.section__input{
+    border: 1px solid #DFE1E5;
+    border-radius: 2.4rem;
+    /* background-color: blue; */
+    height: 4.6rem;
+    width: 58rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.section__input:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1e500;
+}
+
+.main-input-text{
+    width: 48rem;
+    height: 3.5rem;
+    border: none;
+    outline: none;
+}
+
+.main__container .section__input > a{
+    width: 2rem;
+    height: 2rem;
+}
+
+.input-search-icon{
+    /* background-color: red; */
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+    margin-left: 15px;
+}
+
+.input-micro-icon{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    margin-right: 15px;
+    /* transition: background-image 0.9s; Esta linea nos permite asignar una transiccion a la imagen que se trae en el CSS*/
+}
+
+/* .input-micro-icon:hover{
+    background-image: url('https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png');
+}  -- Complemento para la declaracion de transaccion*/
+
+.input_botton{
+    height: 33px;
+    width: 150px;
+    margin: 3px;
+    color: #5F6368;
+    font-size: 14px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.input_botton:hover{
+    border: 1px solid #c6c6c6;
+    color: black;
+}
+
+.input_botton:active{
+    border-color: 1px solid #4d90fe;
+    outline: none;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    font-size: 15px;
+    background-color: #F2F2F2;
+}
+
+.footer__content{
+    /* background-color: red; */
+    height: 40px;
+    color: #5f6368;
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+    border-top: 1px solid #E4E4E4;
+}
+
+.footer__content2{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    color: #5f6368;
+    border-top: 1px solid #E4E4E4;
+    /* background-color: blue; */
+}
+
+.footer_content2_left{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    /* width: 300px; */
+    margin-left: 20px;
+    list-style: none;
+}
+
+.footer_content2_right{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 20px;
+}
+
+.footer__content2 ul li a{
+    text-decoration: none;
+    margin: 15px;
+    color: #5f6368;
+}
+
+.footer__content2 ul li a:hover{
+    text-decoration: underline;
+}
